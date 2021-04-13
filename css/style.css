@@ -1,0 +1,40 @@
+.cuadro{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 180px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+}
+.cuadro:hover{
+    cursor: pointer;
+    background-color:  #E6E6FA;
+}
+.Contenido{
+   margin: 20%;
+   
+}
+.modal-content{
+    border-radius: 50px;
+}
+.modal-body{
+    border-radius: 20px;
+}
+
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+  }
